@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BC Auto Offer</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" width="60px" alt="BC Auto Offer Logo">
+                </a>
+                <div class="custom_menu-btn">
+                    <button onclick="openNav()">
+                        <span class="s-1"></span>
+                        <span class="s-2"></span>
+                        <span class="s-3"></span>
+                    </button>
+                </div>
+                <div id="myNav" class="overlay">
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="bc.html">Sell My Car BC</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Contact Section -->
+    <section class="contact-sec">
+        <div class="container">
+            <div class="row">
+                <div class="contact-heading text-center">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Form Section -->
+    <section class="form-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5">
+                    <div class="contact-content">
+                        <h1>Say Hello! We're Here To Help.</h1>
+                        <p>We value our relationship and will provide assistance with any questions or inquiries about our services at BC Auto Offer.</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-10 mt-lg-0 mt-4">
+                    <div class="form-wrapper">
+                        <form id="contactForm" method="POST" class="row needs-validation" novalidate>
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <input name="f_name" type="text" id="validationCustom03" class="form-control" required>
+                                    <label class="form-control-placeholder" for="validationCustom03">First Name</label>
+                                    <div class="invalid-feedback">First Name is Required</div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="form-group">
+                                    <input name="l_name" type="text" id="validationCustom04" class="form-control" required>
+                                    <label class="form-control-placeholder" for="validationCustom04">Last Name</label>
+                                    <div class="invalid-feedback">Last Name is Required</div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <input name="email" type="email" id="validationCustom1" class="form-control" required>
+                                <label class="form-control-placeholder" for="validationCustom1">Email</label>
+                                <div class="invalid-feedback">Email is Required</div>
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="validationCustom2" class="form-control" required cols="30" rows="4"></textarea>
+                                <label class="form-control-placeholder cc-textarea" for="validationCustom2">Your Message*</label>
+                                <div class="invalid-feedback">Message is Required</div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <input type="submit" value="Submit Form" class="submit-btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Form Section -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-sm-around">
+                <div class="col-xl-4 col-sm-6 my-md-0 my-4">
+                    <a href="index.html"><img src="images/logo.png" width="50" alt="BC Auto Offer"></a>
+                    <div class="footer-social">
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 my-md-0 my-4">
+                    <h2>Get In Touch</h2>
+                    <ul class="list-unstyled mb-0">
+                        <li>Email: info@bcautoffer.com</li>
+                        <li>Phone: (236) 660-6395</li>
+                        <li>Hours: Mon-Sun 9:00AM - 10:00PM</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-6 my-md-0 my-4">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-6 my-md-0 my-4">
+                    <h2>Services</h2>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="alberta.html">Sell My Car Yukon</a></li>
+                        <li><a href="alberta.html">Sell My Car Alberta</a></li>
+                        <li><a href="alberta.html">Sell My Car British Columbia</a></li>
+                        <li><a href="alberta.html">Sell My Car Saskatchewan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="mb-0 footer-text">Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> BC Auto Offer. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="vendor/counter/js/waypoints.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="vendor/counter/js/jquery.counterup.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('contactForm');
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const formData = new FormData(form);
+                const data = {
+                    f_name: formData.get('f_name'),
+                    l_name: formData.get('l_name'),
+                    email: formData.get('email'),
+                    message: formData.get('message')
+                };
+                try {
+                    const response = await fetch('http://localhost:4000/send-email', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    });
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    const result = await response.json();
+                    alert('Message sent successfully!');
+                    form.reset();
+                    form.classList.remove('was-validated');
+                } catch (error) {
+                    console.error('There has been a problem with your fetch operation:', error);
+                    alert('Failed to send message. Please try again.');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
